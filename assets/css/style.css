@@ -1,0 +1,252 @@
+*{box-sizing: border-box;}
+
+body{
+    background: url(../images/white-waves.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+}
+header{
+    background-color:white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 36px;
+    top:0;
+
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #777;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+header h1{
+    background: #4aaaa5;
+    color:white;
+    display: inline-block;
+    padding:20px;
+    font-size:30px;
+    margin:0px;
+}
+
+img{
+    width:200px;
+    float:left;
+    padding:15px 15px 15px 0px;
+}
+.footer1{
+    background-color:#4aaaa5;
+    width:100%;
+    height:70px;
+    position:absolute;
+    bottom:0;
+}
+footer{
+    background-color:#666666;
+    width:100%;
+    text-align:center;
+    vertical-align: middle;
+    height:60px;
+    position:absolute;
+    bottom:0;
+}
+
+nav{
+    float: right;
+    margin-top: 18px;
+    text-align:center;
+}
+
+nav ul li{
+    display:inline;
+}
+
+nav a{
+    color:#333;
+    font-size:16px;
+    padding: 5px 15px;
+    border-right: 2px solid #4aaaa5;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color:white;
+    
+}
+#left-column, #right-column{
+    background-color:white;
+    border:2px;
+}
+
+#left-column{
+    padding:25px;
+}
+
+#name{
+    width:100%;
+}
+
+#email{
+    width:100%;
+}
+
+#message{
+    width:100%;
+    height:120px;
+}
+
+input[type=submit] {
+    background-color:#4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px 16px 5px 16px;
+}
+
+.apple{
+    height:175px;
+    width:225px;
+    
+}
+
+.doom{
+    height:175px;
+    width:225px;
+}
+
+.coding{
+    height:175px;
+    width:225px;
+}
+
+.numbers{
+    height:175px;
+    width:225px;
+}
+
+.react{
+    height:175px;
+    width:225px;
+}
+
+.java{
+    height:175px;
+    width:225px;
+}
+
+.html{
+    height:175px;
+    width:225px;
+}
+
+@media (max-width:980px){
+    .header{max-width:980px;}
+    .wrapper{max-width:600px;margin-left:50px;}
+    nav{float:right;}
+    sectiom{max-height:1000px;}
+
+}
+
+@media (max-width:768px){
+    .header{max-width:768;}
+    .wrapper{max-width:600px;margin-left:70px;}
+    #left-column{margin:40px 40px 20px 40px;padding:20px}
+    .apple{
+        height:175px;
+        width:240px;
+        padding:5px;
+    }
+    .doom{
+        height:175px;
+        width:240px;
+        padding:5px;
+    }
+    .coding{
+        height:175px;
+        width:240px;
+        padding:5px;
+    }
+    .numbers{
+        height:175px;
+        width:240px;
+        padding:5px;
+    }
+    .react{
+        height:175px;
+        width:240px;
+        padding:5px;
+    }
+    .java{
+        height:175px;
+        width:240px;
+        padding:5px;
+    }
+    .html{
+        height:175px;
+        width:240px;
+        padding:5px;
+}
+
+header h1{
+    padding:15px;
+    font-size:25px;
+    margin:0px;
+}
+nav {
+    margin-top:7px;
+}
+@media (max-width:640px){
+
+.wrapper{max-width:300px;margin-left:20px;margin-top:20px;}
+}
+.apple{
+    height:175px;
+    width:240px;
+    padding:5px;
+    
+}
+.doom{
+    height:175px;
+    width:240px;
+    padding:5px;
+    margin:5px 40px 5px 40px;
+}
+.coding{
+    height:175px;
+    width:240px;
+    padding:5px;
+    margin:5px 40px 5px 40px;
+}
+.numbers{
+    height:175px;
+    width:240px;
+    padding:5px;
+    margin:5px 40px 5px 40px;
+}
+.react{
+    height:175px;
+    width:240px;
+    padding:5px;
+    margin:5px 40px 5px 40px;
+}
+.java{
+    height:175px;
+    width:240px;
+    padding:5px;
+    margin:5px 40px 5px 40px;
+}
+.html{
+    height:175px;
+    width:240px;
+    padding:5px;
+    margin:5px 40px 5px 40px;
+}
+}
